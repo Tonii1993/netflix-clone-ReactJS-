@@ -3,10 +3,13 @@ import "./App.css";
 import Rows from "./Rows";
 import requests from "./requests";
 import Banner from "./Banner";
+import NavBar from "./NavBar";
+
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Banner />
       <Rows
         title="NETFLIX ORIGINALS"
